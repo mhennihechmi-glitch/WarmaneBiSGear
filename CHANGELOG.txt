@@ -1,0 +1,65 @@
+Warmane BiS Gear: changelog
+===========================
+
+1.7.1
+  - Fix: after updating from 1.6.0 with /reload instead of a restart, the window could fail
+    to open (error "BuildStats (a nil value)"). The Stats tab now lives in the addon's
+    existing files, so a /reload is enough. If the Stats data is ever missing, the window
+    still opens without that tab instead of breaking.
+
+1.7.0
+  - New STATS tab (or /bis stats): your hit, expertise, defense and armor pen caps, worked out
+    from your talents and race, next to what the full BiS set has and what you have now.
+    Below the caps: spell power, haste, crit, intellect, spirit, strength, agility, stamina ...
+    with the BiS set's number as the one to aim for, and how close you are in %.
+  - The BiS numbers come from each spec's sixtyupgrades export (gear, gems, enchants and
+    talents, no raid buffs). Hover a row to see how the cap is worked out.
+  - A tick box counts raid hit: a Draenei in the group (+1%) and Misery or Improved Faerie
+    Fire on the boss (+3% spell hit). On by default; untick it for 5-mans or without them.
+
+1.6.0
+  - Enchant items next to the gems: the scroll, arcanum, inscription, leg armor,
+    spellthread, armor kit, scope or belt buckle that puts each BiS enchant on, shown as an
+    icon in front of the gems (237 slots across the 30 specs).
+  - Shift-click any item, gem or enchant item with the Auction House open (Browse tab) and
+    it searches for it straight away. With the AH closed, Shift-click links it in chat.
+  - Enchants that have no item (engineering tinkers, tailoring embroideries, Reticulated
+    Armor Webbing, ring enchants, Death Knight runes) only show their name, as before.
+
+1.5.3
+  - Unholy Death Knight: talents corrected to 1/17/53. 1 point in Subversion (Blood),
+    Unholy Blight removed. Glyphs unchanged.
+  - Fire Mage: Lingering Illness (belt) now shows 3 Reckless Ametrine instead of 2.
+
+1.5.2
+  - Main hand, off hand and ranged / relic / wand / sigil sit closer together under the
+    character. Long weapon names wrap, gems get their own line.
+
+1.5.1
+  - The three weapon slots moved to a row centered under the character, like the game's
+    own character window.
+
+1.5.0
+  - Works with Raids Logs Report's Talents Check: your talents and glyphs are sent to your
+    raid or party only (addon prefix WBGT), so the raid leader can see glyphs, which the
+    game cannot inspect. Nothing else is sent.
+  - Peezy added to the credits.
+
+1.4.0
+  - Gems and exact enchants for all 30 specs.
+  - <Bastion> banner on top of the window; click it for the Discord link. /bis credits
+    prints it too.
+
+1.3.0
+  - Gems: small gem icons on each item's enchant line (hover for the gem, Shift-click to
+    link). The item tooltip and the dressing room show the exact BiS enchant.
+
+1.2.0
+  - Every item shows where it comes from: boss and difficulty, emblem cost, tier token,
+    reputation or crafting.
+
+1.1.0
+  - 30 specs, every class covered.
+
+1.0.0
+  - First release: Gear, Talents and Glyphs tabs, and a "Warmane BiS:" line on item tooltips.

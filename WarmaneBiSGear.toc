@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: Warmane BiS Gear
+## Notes: Best in slot gear, talents and glyphs per spec, always the latest phase. /bis
+## Author: Gravie, thranin, Wizax, Peezy - <Bastion> Alliance, Icecrown
+## Version: 1.7.1
+## X-Website: https://discord.gg/3xUfVCejhT
+## SavedVariables: WarmaneBiSGearDB
+
+Data\Talents.lua
+Data\BiS.lua
+Core.lua
+UI.lua

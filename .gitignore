@@ -1,0 +1,9 @@
+# never commit game data, logs or archives
+WTF/
+SavedVariables/
+*.zip
+*.log
+*.bak
+*backup*
+.DS_Store
+__MACOSX/
